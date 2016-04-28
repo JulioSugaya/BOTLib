@@ -24,6 +24,7 @@ unsigned long BlueTooth::findBaud()
     int numRates = sizeof(baunds)/sizeof(unsigned long);
     int response = false;
     int recvd = 0;
+    long baund = 9600;
 
     delay(100);
     for(int rn = 0; rn < numRates; rn++){
@@ -34,10 +35,12 @@ unsigned long BlueTooth::findBaud()
         recvd = _btSerial.readBytes(_buffer,_bufsize);
         if (recvd > 0){
             // FIXME: refactor to a single return
-            return(baunds[rn]);
+            //return(baunds[rn]);
+            baund = baunds[rn];
+            break;
         }
     }
-    return(0);
+    return(baund);
 }
 
 void BlueTooth::setBaud(unsigned long baud, unsigned long stopbits, unsigned long parity)

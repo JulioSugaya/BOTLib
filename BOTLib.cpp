@@ -24,7 +24,6 @@ void loop()
 	if(bt.available()){
 		btReads = bt.read();
 		Serial.println(btReads);
-
 	}
 	// Forward
 	motor1.run();
