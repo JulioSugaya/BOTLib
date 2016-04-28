@@ -10,29 +10,23 @@
 
 //<<constructor>>
 SR04::SR04(uint8_t trigPin, uint8_t echoPin){
-	TRIGPIN = trigPin;
-	ECHOPIN = echoPin;
+	TRIG_PIN = trigPin;
+	ECHO_PIN = echoPin;
 	Serial.begin (9600);
 	pinMode(trigPin, OUTPUT);
 	pinMode(echoPin, INPUT);
 }
 
 long SR04::getDistanceCM(){
-	 digitalWrite(TRIGPIN, LOW);
+	 digitalWrite(TRIG_PIN, LOW);
 	 delayMicroseconds(2);
 
-	 digitalWrite(TRIGPIN, HIGH);
+	 digitalWrite(TRIG_PIN, HIGH);
 	 delayMicroseconds(10);
 
-	 digitalWrite(TRIGPIN, LOW);
-	 duration = pulseIn(ECHOPIN, HIGH);
+	 digitalWrite(TRIG_PIN, LOW);
+	 duration = pulseIn(ECHO_PIN, HIGH);
 
 	 //Calculate the distance (in cm) based on the speed of sound.
 	 return duration/58.2;
 }
-
-//turn the LED off
-void LED::off(){
-	digitalWrite(LED_PIN,LOW);
-}
-

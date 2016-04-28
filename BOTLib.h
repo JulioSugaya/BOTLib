@@ -39,8 +39,8 @@ extern "C++" {
 	// SensorSR04 Class
 	class SR04{
 		private:
-			byte TRIGPIN;
-			byte ECHOPIN;
+			byte TRIG_PIN;
+			byte ECHO_PIN;
 			long duration; // Duration used to calculate distance
 		public:
 			SR04(uint8_t trigPin, uint8_t echoPin);
