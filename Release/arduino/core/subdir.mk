@@ -4,31 +4,35 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/CDC.cpp \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/HID.cpp \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/Print.cpp \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/Stream.cpp \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/Tone.cpp \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/WMath.cpp \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/WString.cpp \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/main.cpp \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/new.cpp 
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/HID.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp 
+
+S_UPPER_SRCS += \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.S 
 
 C_SRCS += \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/hooks.c \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/wiring.c \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c \
-/Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c 
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c \
+/Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c 
 
 C_DEPS += \
 ./arduino/WInterrupts.c.d \
@@ -55,14 +59,19 @@ AR_OBJ += \
 ./arduino/WInterrupts.c.o \
 ./arduino/WMath.cpp.o \
 ./arduino/WString.cpp.o \
+./arduino/abi.cpp.o \
 ./arduino/hooks.c.o \
 ./arduino/main.cpp.o \
 ./arduino/new.cpp.o \
 ./arduino/wiring.c.o \
 ./arduino/wiring_analog.c.o \
 ./arduino/wiring_digital.c.o \
+./arduino/wiring_pulse.S.o \
 ./arduino/wiring_pulse.c.o \
 ./arduino/wiring_shift.c.o 
+
+S_UPPER_DEPS += \
+./arduino/wiring_pulse.S.d 
 
 CPP_DEPS += \
 ./arduino/CDC.cpp.d \
@@ -79,169 +88,184 @@ CPP_DEPS += \
 ./arduino/USBCore.cpp.d \
 ./arduino/WMath.cpp.d \
 ./arduino/WString.cpp.d \
+./arduino/abi.cpp.d \
 ./arduino/main.cpp.d \
 ./arduino/new.cpp.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
-arduino/CDC.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/CDC.cpp
+arduino/CDC.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/HID.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/HID.cpp
+arduino/HID.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/HID.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/HardwareSerial.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp
+arduino/HardwareSerial.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/HardwareSerial0.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp
+arduino/HardwareSerial0.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/HardwareSerial1.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp
+arduino/HardwareSerial1.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/HardwareSerial2.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp
+arduino/HardwareSerial2.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/HardwareSerial3.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp
+arduino/HardwareSerial3.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/IPAddress.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp
+arduino/IPAddress.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/Print.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/Print.cpp
+arduino/Print.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/Stream.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/Stream.cpp
+arduino/Stream.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/Tone.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/Tone.cpp
+arduino/Tone.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/USBCore.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp
+arduino/USBCore.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/WInterrupts.c.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c
+arduino/WInterrupts.c.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/WMath.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/WMath.cpp
+arduino/WMath.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/WString.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/WString.cpp
+arduino/WString.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/hooks.c.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/hooks.c
-	@echo 'Building file: $<'
-	@echo 'Starting C compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
-	@echo 'Finished building: $<'
-	@echo ' '
-
-arduino/main.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/main.cpp
+arduino/abi.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/new.cpp.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/new.cpp
+arduino/hooks.c.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c
+	@echo 'Building file: $<'
+	@echo 'Starting C compile'
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	@echo 'Finished building: $<'
+	@echo ' '
+
+arduino/main.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/wiring.c.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/wiring.c
+arduino/new.cpp.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp
 	@echo 'Building file: $<'
-	@echo 'Starting C compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	@echo 'Starting C++ compile'
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/wiring_analog.c.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c
+arduino/wiring.c.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/wiring_digital.c.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c
+arduino/wiring_analog.c.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/wiring_pulse.c.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c
+arduino/wiring_digital.c.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
-arduino/wiring_shift.c.o: /Users/juliosugaya/Arduino\ 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c
+arduino/wiring_pulse.S.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.S
+	@echo 'Building file: $<'
+	@echo 'Starting S compile'
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-gcc" -c -g -x assembler-with-cpp -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	@echo 'Finished building: $<'
+	@echo ' '
+
+arduino/wiring_pulse.c.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.5.7.app/Contents/Resources/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	@echo 'Finished building: $<'
+	@echo ' '
+
+arduino/wiring_shift.c.o: /Users/juliosugaya/Arduino\ 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c
+	@echo 'Building file: $<'
+	@echo 'Starting C compile'
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 

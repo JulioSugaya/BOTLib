@@ -12,6 +12,7 @@
 SR04::SR04(uint8_t trigPin, uint8_t echoPin){
 	TRIG_PIN = trigPin;
 	ECHO_PIN = echoPin;
+	duration = 0;
 	Serial.begin (9600);
 	pinMode(trigPin, OUTPUT);
 	pinMode(echoPin, INPUT);
