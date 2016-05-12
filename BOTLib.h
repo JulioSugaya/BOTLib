@@ -47,6 +47,17 @@ extern "C++" {
 			SR04(uint8_t trigPin, uint8_t echoPin);
 			long getDistanceCM();
 	};
+
+	// SensorIR Class
+	class SensorIR{
+		private:
+			byte Sensor_PIN;
+			byte Sensor_State;
+		public:
+			SensorIR(uint8_t pin);
+			int getState();
+	};
+
 	// Button Class
 	class Button{
 		private:
