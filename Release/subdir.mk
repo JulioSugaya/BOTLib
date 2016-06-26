@@ -10,6 +10,7 @@ CPP_SRCS += \
 ../Debug.cpp \
 ../LED.cpp \
 ../Motor.cpp \
+../SensorIR.cpp \
 ../SensorSR04.cpp 
 
 LINK_OBJ += \
@@ -19,6 +20,7 @@ LINK_OBJ += \
 ./Debug.cpp.o \
 ./LED.cpp.o \
 ./Motor.cpp.o \
+./SensorIR.cpp.o \
 ./SensorSR04.cpp.o 
 
 CPP_DEPS += \
@@ -28,6 +30,7 @@ CPP_DEPS += \
 ./Debug.cpp.d \
 ./LED.cpp.d \
 ./Motor.cpp.d \
+./SensorIR.cpp.d \
 ./SensorSR04.cpp.d 
 
 
@@ -68,6 +71,13 @@ LED.cpp.o: ../LED.cpp
 	@echo ' '
 
 Motor.cpp.o: ../Motor.cpp
+	@echo 'Building file: $<'
+	@echo 'Starting C++ compile'
+	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	@echo 'Finished building: $<'
+	@echo ' '
+
+SensorIR.cpp.o: ../SensorIR.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
 	"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_NANO -DARDUINO_ARCH_AVR     -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/cores/arduino" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/variants/eightanaloginputs" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/libraries/LiquidCrystal/src" -I"/Users/juliosugaya/Arduino 1.6.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall

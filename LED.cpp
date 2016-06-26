@@ -19,6 +19,13 @@ void LED::on(){
 	digitalWrite(LED_PIN,HIGH);
 }
 
+//turn the LED on per seconds
+void LED::on(uint8_t s){
+	digitalWrite(LED_PIN,HIGH);
+	delay(s*1000);
+	digitalWrite(LED_PIN,LOW);
+}
+
 //turn the LED off
 void LED::off(){
 	digitalWrite(LED_PIN,LOW);

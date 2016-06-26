@@ -35,6 +35,7 @@ extern "C++" {
 		public:
 			LED(uint8_t pin);
 			void on();
+			void on(uint8_t s);
 			void off();
 	};
 	// SensorSR04 Class
@@ -77,8 +78,10 @@ extern "C++" {
 		public:
 			Motor(uint8_t enable, uint8_t pinA1, uint8_t pinA2);
 			void run();
+			void run(uint8_t c);
 			void stop();
 			void reverse();
+			void reverse(uint8_t c);
 	};
 
 	class BlueTooth{

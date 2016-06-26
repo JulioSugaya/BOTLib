@@ -24,6 +24,14 @@ void Motor::run(){
 	digitalWrite(PIN_A1,HIGH);
 	digitalWrite(PIN_A2,LOW);
 }
+// run c cm
+void Motor::run(uint8_t c){
+	digitalWrite(PIN_A1,HIGH);
+	digitalWrite(PIN_A2,LOW);
+	delay(c*1000);
+	digitalWrite(PIN_A1,LOW);
+	digitalWrite(PIN_A2,LOW);
+}
 
 //stop it
 void Motor::stop(){
@@ -35,5 +43,14 @@ void Motor::stop(){
 void Motor::reverse(){
 	digitalWrite(PIN_A1,LOW);
 	digitalWrite(PIN_A2,HIGH);
+}
+
+//go back
+void Motor::reverse(uint8_t c){
+	digitalWrite(PIN_A1,LOW);
+	digitalWrite(PIN_A2,HIGH);
+	delay(c*1000);
+	digitalWrite(PIN_A1,LOW);
+	digitalWrite(PIN_A2,LOW);
 }
 
