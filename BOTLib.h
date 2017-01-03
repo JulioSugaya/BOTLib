@@ -35,7 +35,7 @@ extern "C++" {
 		public:
 			LED(uint8_t pin);
 			void on();
-			void on(uint8_t s);
+			void blink(uint8_t t, uint8_t s = 1);
 			void off();
 	};
 	// SensorSR04 Class
@@ -95,13 +95,22 @@ extern "C++" {
 //		    char getMessage();
 	};
 
+	// Display Class
+	class Display{
+		private:
+		    LiquidCrystal* lcd;
+		public:
+		    Display(uint8_t pin1, uint8_t pin2, uint8_t pin3, uint8_t pin4, uint8_t pin5, uint8_t pin6);
+			void print(char t);
+	};
+
 	// Debug Class
 	class Debug{
 		private:
 		    LiquidCrystal* lcd;
 		public:
-			Debug(uint8_t pin1, uint8_t pin2, uint8_t pin3, uint8_t pin4, uint8_t pin5, uint8_t pin6);
-			void print(char t);
+		    Debug(Display d);
+			void send(char t);
 	};
 
 // end facade
