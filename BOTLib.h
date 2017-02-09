@@ -100,14 +100,16 @@ extern "C++" {
 		private:
 		    LiquidCrystal* lcd;
 		public:
-		    Display(uint8_t pin1, uint8_t pin2, uint8_t pin3, uint8_t pin4, uint8_t pin5, uint8_t pin6);
+		    LCD(uint8_t pin1, uint8_t pin2, uint8_t pin3, uint8_t pin4, uint8_t pin5, uint8_t pin6);
+		    // OLED SCL -> A5, SDA -> A4
+		    OLED();
 			void print(char t);
 	};
 
 	// Debug Class
 	class Debug{
 		private:
-		    LiquidCrystal* lcd;
+		    //LiquidCrystal* lcd;
 		public:
 		    Debug(Display d);
 			void send(char t);
